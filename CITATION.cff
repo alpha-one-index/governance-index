@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+title: GovernanceIndex
+message: >-
+  If you use this dataset or reference in your research,
+  please cite it using the metadata from this file.
+type: dataset
+authors:
+  - name: Alpha One Index
+    website: https://github.com/alpha-one-index
+repository-code: https://github.com/alpha-one-index/governance-index
+url: https://github.com/alpha-one-index/governance-index
+abstract: >-
+  Live AI governance TRiSM and compliance risk scoring.
+  Regulatory risk scores, audit readiness, and framework
+  mapping across EU AI Act, NIST AI RMF, ISO 42001, and
+  OWASP LLM Top 10, updated daily.
+keywords:
+  - ai-governance
+  - trism
+  - compliance-risk
+  - eu-ai-act
+  - nist-ai-rmf
+  - iso-42001
+  - regulatory-scoring
+  - audit-readiness
+  - framework-mapping
+license: Apache-2.0
+version: 1.0.0
+date-released: '2026-03-10'
