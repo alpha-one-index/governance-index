@@ -1,0 +1,235 @@
+{
+  "timestamp": "2026-03-10T11:49:12.849041+00:00",
+  "feeds": {
+    "csrc_publications": {
+      "items": [
+        {
+          "error": "Failed to parse RSS XML"
+        }
+      ],
+      "count": 1
+    },
+    "csrc_news": {
+      "items": [
+        {
+          "error": "Failed to parse RSS XML"
+        }
+      ],
+      "count": 1
+    },
+    "nvd_cve": {
+      "cves": [
+        {
+          "cve_id": "CVE-2025-47777",
+          "description": "5ire is a cross-platform desktop artificial intelligence assistant and model context protocol client. Versions prior to 0.11.1 are vulnerable to stored cross-site scripting in chatbot responses due to insufficient sanitization. This, in turn, can lead to Remote Code Execution (RCE) via unsafe Electron protocol handling and exposed Electron APIs. All users of 5ire client versions prior to patched releases, particularly those interacting with untrusted chatbots or pasting external content, are aff",
+          "published": "2025-05-14T16:15:28.957",
+          "modified": "2026-01-22T21:26:26.727",
+          "cvss_score": 9.6,
+          "severity": "critical"
+        },
+        {
+          "cve_id": "CVE-2025-58357",
+          "description": "5ire is a cross-platform desktop artificial intelligence assistant and model context protocol client. Version 0.13.2 contains a vulnerability in the chat page's script gadgets that enables content injection attacks through multiple vectors: malicious prompt injection pages, compromised MCP servers, and exploited tool integrations. This is fixed in version 0.14.0.",
+          "published": "2025-09-04T10:42:32.810",
+          "modified": "2026-01-22T20:09:16.937",
+          "cvss_score": 9.6,
+          "severity": "critical"
+        },
+        {
+          "cve_id": "CVE-2024-24759",
+          "description": "MindsDB is a platform for building artificial intelligence from enterprise data. Prior to version 23.12.4.2, a threat actor can bypass the server-side request forgery protection on the whole website with DNS Rebinding. The vulnerability can also lead to denial of service. Version 23.12.4.2 contains a patch.",
+          "published": "2024-09-05T17:15:12.380",
+          "modified": "2024-09-06T13:06:18.623",
+          "cvss_score": 9.3,
+          "severity": "critical"
+        },
+        {
+          "cve_id": "CVE-2023-50731",
+          "description": "MindsDB is a SQL Server for artificial intelligence. Prior to version 23.11.4.1, the `put` method in `mindsdb/mindsdb/api/http/namespaces/file.py` does not validate the user-controlled name value, which is used in a temporary file name, which is afterwards opened for writing on lines 122-125, which leads to path injection. Later in the method, the temporary directory is deleted on line 151, but since we can write outside of the directory using the path injection vulnerability, the potentially da",
+          "published": "2023-12-22T21:15:08.150",
+          "modified": "2024-11-21T08:37:13.950",
+          "cvss_score": 9.1,
+          "severity": "critical"
+        },
+        {
+          "cve_id": "CVE-2023-46248",
+          "description": "Cody is an artificial intelligence (AI) coding assistant. The Cody AI VSCode extension versions 0.10.0 through 0.14.0 are vulnerable to Remote Code Execution under certain conditions. An attacker in control of a malicious repository could modify the Cody configuration file `.vscode/cody.json` and overwrite Cody commands. If a user with the extension installed opens this malicious repository and runs a Cody command such as /explain or /doc, this could allow arbitrary code execution on the user's ",
+          "published": "2023-10-31T16:15:09.777",
+          "modified": "2024-11-21T08:28:09.850",
+          "cvss_score": 9.0,
+          "severity": "critical"
+        },
+        {
+          "cve_id": "CVE-2024-47066",
+          "description": "Lobe Chat is an open-source artificial intelligence chat framework. Prior to version 1.19.13, server-side request forgery protection implemented in `src/app/api/proxy/route.ts` does not consider redirect and could be bypassed when attacker provides an external malicious URL which redirects to internal resources like a private network or loopback address. Version 1.19.13 contains an improved fix for the issue.",
+          "published": "2024-09-23T16:15:06.670",
+          "modified": "2024-09-30T18:03:58.750",
+          "cvss_score": 9.0,
+          "severity": "critical"
+        },
+        {
+          "cve_id": "CVE-2025-31491",
+          "description": "AutoGPT is a platform that allows users to create, deploy, and manage continuous artificial intelligence agents that automate complex workflows. Prior to 0.6.1, AutoGPT allows of leakage of cross-domain cookies and protected headers in requests redirect. AutoGPT uses a wrapper around the requests python library, located in autogpt_platform/backend/backend/util/request.py. In this wrapper, redirects are specifically NOT followed for the first request. If the wrapper is used with allow_redirects s",
+          "published": "2025-04-15T00:15:14.607",
+          "modified": "2025-08-05T17:04:15.657",
+          "cvss_score": 8.6,
+          "severity": "high"
+        },
+        {
+          "cve_id": "CVE-2025-22603",
+          "description": "AutoGPT is a platform that allows users to create, deploy, and manage continuous artificial intelligence agents that automate complex workflows. Versions prior to autogpt-platform-beta-v0.4.2 contains a server-side request forgery (SSRF) vulnerability inside component (or block) `Send Web Request`. The root cause is  that IPV6 address is not restricted or filtered, which allows attackers to perform a server side request forgery to visit an IPV6 service. autogpt-platform-beta-v0.4.2 fixes the iss",
+          "published": "2025-03-10T19:15:39.970",
+          "modified": "2026-01-28T17:24:48.080",
+          "cvss_score": 8.1,
+          "severity": "high"
+        },
+        {
+          "cve_id": "CVE-2025-53944",
+          "description": "AutoGPT is a platform that allows users to create, deploy, and manage continuous artificial intelligence agents. In v0.6.15 and below, the external API's get_graph_execution_results endpoint has an authorization bypass vulnerability. While it correctly validates user access to the graph_id, it fails to verify ownership of the graph_exec_id parameter, allowing authenticated users to access any execution results by providing arbitrary execution IDs. The internal API implements proper validation fo",
+          "published": "2025-07-30T15:15:35.210",
+          "modified": "2025-08-05T14:40:34.370",
+          "cvss_score": 7.7,
+          "severity": "high"
+        },
+        {
+          "cve_id": "CVE-2025-31490",
+          "description": "AutoGPT is a platform that allows users to create, deploy, and manage continuous artificial intelligence agents that automate complex workflows. Prior to 0.6.1, AutoGPT allows SSRF due to DNS Rebinding in requests wrapper. AutoGPT is built with a wrapper around Python's requests library, hardening the application against SSRF. The code for this wrapper can be found in autogpt_platform/backend/backend/util/request.py. The requested hostname of a URL which is being requested is validated, ensuring",
+          "published": "2025-04-14T23:15:21.713",
+          "modified": "2025-08-05T17:04:28.387",
+          "cvss_score": 7.5,
+          "severity": "high"
+        },
+        {
+          "cve_id": "CVE-2023-49795",
+          "description": "MindsDB connects artificial intelligence models to real time data. Versions prior to 23.11.4.1 contain a server-side request forgery vulnerability in `file.py`. This can lead to limited information disclosure. Users should use MindsDB's `staging` branch or v23.11.4.1, which contain a fix for the issue.\n",
+          "published": "2023-12-11T19:15:09.070",
+          "modified": "2024-11-21T08:33:51.503",
+          "cvss_score": 6.5,
+          "severity": "medium"
+        },
+        {
+          "cve_id": "CVE-2015-9501",
+          "description": "The Artificial Intelligence theme before 1.2.4 for WordPress has XSS because Genericons HTML files are unnecessarily placed under the web root.",
+          "published": "2019-10-22T22:15:10.120",
+          "modified": "2024-11-21T02:40:47.180",
+          "cvss_score": 6.1,
+          "severity": "medium"
+        },
+        {
+          "cve_id": "CVE-2023-37468",
+          "description": "Feedbacksystem is a personalized feedback system for students using artificial intelligence. Passwords of users using LDAP login are stored in clear text in the database. The LDAP users password is passed unencrypted in the LoginController.scala and stored in the database when logging in for the first time. Users using only local login or the cas login are not affected. This issue has been patched in version 1.19.2.\n\n",
+          "published": "2023-07-13T21:15:09.253",
+          "modified": "2024-11-21T08:11:46.300",
+          "cvss_score": 6.0,
+          "severity": "medium"
+        },
+        {
+          "cve_id": "CVE-2025-46571",
+          "description": "Open WebUI is a self-hosted artificial intelligence platform designed to operate entirely offline. Prior to version 0.6.6, low privileged users can upload HTML files which contain JavaScript code via the `/api/v1/files/` backend endpoint. This endpoint returns a file id, which can be used to open the file in the browser and trigger the JavaScript code in the user's browser. Under the default settings, files uploaded by low-privileged users can only be viewed by admins or themselves, limiting the",
+          "published": "2025-05-05T19:15:57.050",
+          "modified": "2025-06-17T20:18:30.580",
+          "cvss_score": 5.4,
+          "severity": "medium"
+        },
+        {
+          "cve_id": "CVE-2025-46719",
+          "description": "Open WebUI is a self-hosted artificial intelligence platform designed to operate entirely offline. Prior to version 0.6.6, a vulnerability in the way certain html tags in chat messages are rendered allows attackers to inject JavaScript code into a chat transcript. The JavaScript code will be executed in the user's browser every time that chat transcript is opened, allowing attackers to retrieve the user's access token and gain full control over their account. Chat transcripts can be shared with ",
+          "published": "2025-05-05T19:15:57.197",
+          "modified": "2025-06-17T20:18:16.003",
+          "cvss_score": 5.4,
+          "severity": "medium"
+        },
+        {
+          "cve_id": "CVE-2023-49796",
+          "description": "MindsDB connects artificial intelligence models to real time data. Versions prior to 23.11.4.1 contain a limited file write vulnerability in `file.py` Users should use MindsDB's `staging` branch or v23.11.4.1, which contain a fix for the issue.",
+          "published": "2023-12-11T21:15:07.460",
+          "modified": "2024-11-21T08:33:51.630",
+          "cvss_score": 5.3,
+          "severity": "medium"
+        },
+        {
+          "cve_id": "CVE-2024-52294",
+          "description": "Khoj is a self-hostable artificial intelligence app. Prior to version 1.29.10, an Insecure Direct Object Reference (IDOR) vulnerability in the update_subscription endpoint allows any authenticated user to manipulate other users' Stripe subscriptions by simply modifying the email parameter in the request. The vulnerability exists in the subscription endpoint at `/api/subscription`. The endpoint uses an email parameter as a direct reference to user subscriptions without verifying object ownership.",
+          "published": "2024-12-30T17:15:09.467",
+          "modified": "2024-12-30T17:15:09.467",
+          "cvss_score": 4.3,
+          "severity": "medium"
+        },
+        {
+          "cve_id": "CVE-2024-45599",
+          "description": "Cursor is an artificial intelligence code editor. Prior to version 0.41.0, if a user on macOS has granted Cursor access to the camera or microphone, any program that is run on the machine is able to access the camera or the microphone without explicitly being granted access, through a DyLib Injection using DYLD_INSERT_LIBRARIES environment variable. The usage of `com.apple.security.cs.allow-dyld-environment-variables` and `com.apple.security.cs.disable-library-validation` allows an external dyna",
+          "published": "2024-09-25T01:15:44.157",
+          "modified": "2024-09-26T13:32:02.803",
+          "cvss_score": 3.8,
+          "severity": "low"
+        },
+        {
+          "cve_id": "CVE-2025-31494",
+          "description": "AutoGPT is a platform that allows users to create, deploy, and manage continuous artificial intelligence agents that automate complex workflows. The AutoGPT Platform's WebSocket API transmitted node execution updates to subscribers based on the graph_id+graph_version. Additionally, there was no check prohibiting users from subscribing with another user's graph_id+graph_version. As a result, node execution updates from one user's graph execution could be received by another user within the same i",
+          "published": "2025-04-15T00:15:14.740",
+          "modified": "2025-08-25T02:23:37.570",
+          "cvss_score": 3.5,
+          "severity": "low"
+        },
+        {
+          "cve_id": "CVE-2025-27496",
+          "description": "Snowflake, a platform for using artificial intelligence in the context of cloud computing, has a vulnerability in the Snowflake JDBC driver (\"Driver\") in versions 3.0.13 through 3.23.0 of the driver. When the logging level was set to DEBUG, the Driver would log locally the client-side encryption master key of the target stage during the execution of GET/PUT commands. This key by itself does not grant access to any sensitive data without additional access authorizations,  and is not logged server",
+          "published": "2025-03-13T19:15:52.050",
+          "modified": "2025-08-22T17:42:18.167",
+          "cvss_score": 3.3,
+          "severity": "low"
+        }
+      ],
+      "count": 20
+    }
+  },
+  "ai_rmf_playbook": {
+    "reachable": true,
+    "suggested_actions_sample": []
+  },
+  "nist_iso_crossmap": {
+    "GOVERN": {
+      "nist_function": "Govern",
+      "iso_42001_clauses": [
+        "5.1",
+        "5.2",
+        "5.3",
+        "6.1",
+        "7.1"
+      ],
+      "description": "Leadership, policy, risk management strategy"
+    },
+    "MAP": {
+      "nist_function": "Map",
+      "iso_42001_clauses": [
+        "6.1.2",
+        "8.2",
+        "8.4"
+      ],
+      "description": "Context mapping, AI system categorization"
+    },
+    "MEASURE": {
+      "nist_function": "Measure",
+      "iso_42001_clauses": [
+        "9.1",
+        "9.2",
+        "9.3"
+      ],
+      "description": "Performance monitoring, metrics, evaluation"
+    },
+    "MANAGE": {
+      "nist_function": "Manage",
+      "iso_42001_clauses": [
+        "8.1",
+        "10.1",
+        "10.2"
+      ],
+      "description": "Operational controls, incident response, improvement"
+    }
+  },
+  "summary": {
+    "total_publications": 22,
+    "feeds_checked": 3,
+    "crossmap_functions": 4
+  }
+}

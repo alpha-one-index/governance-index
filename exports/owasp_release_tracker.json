@@ -1,0 +1,657 @@
+{
+  "timestamp": "2026-03-10T11:49:16.811296+00:00",
+  "repos": {
+    "llm_top_10": {
+      "description": "OWASP Top 10 for LLM Applications",
+      "metadata": {
+        "stars": 1134,
+        "forks": 297,
+        "open_issues": 37,
+        "last_push": "2026-02-22T00:53:11Z",
+        "license": "NOASSERTION"
+      },
+      "latest_release": {
+        "tag": "2024",
+        "name": "OWASP Top 10 for Large Language Model Applications - 2025",
+        "published_at": "2024-11-18T00:35:51Z",
+        "prerelease": false,
+        "url": "https://github.com/OWASP/www-project-top-10-for-large-language-model-applications/releases/tag/2024",
+        "body_preview": "Official \"2025\" release for the OWASP Top 10 for Large Language Model Applications Top Ten"
+      },
+      "total_releases": 3,
+      "recent_commits": [
+        {
+          "sha": "02059576",
+          "message": "Merge pull request #776 from almogbhl/patch-1\n\nUpdate ASI Agentic Exploits & Incidents Tracker",
+          "date": "2025-12-29T17:41:53Z",
+          "author": "itskerenkatz",
+          "url": "https://github.com/OWASP/www-project-top-10-for-large-language-model-applications/commit/020595761a4b7b0c3f9cf01a0457b78f9f1e7f9c",
+          "is_vulnerability_update": false
+        },
+        {
+          "sha": "3b9dcd53",
+          "message": "Merge pull request #781 from felipepenha/genai-red-team-handbook\n\nGenAI Red Team Handbook: Example Now Accepts List of Prompts + Docs",
+          "date": "2025-12-28T02:25:24Z",
+          "author": "Jason Ross",
+          "url": "https://github.com/OWASP/www-project-top-10-for-large-language-model-applications/commit/3b9dcd538e9284de66f91aa3b91d1c54c4f55f34",
+          "is_vulnerability_update": false
+        },
+        {
+          "sha": "d6e3a0a8",
+          "message": "docs: improved README with general arch diagram.",
+          "date": "2025-12-17T02:20:55Z",
+          "author": "Felipe Campos Penha",
+          "url": "https://github.com/OWASP/www-project-top-10-for-large-language-model-applications/commit/d6e3a0a8a4b5c7559df704aa937b2b28c329d810",
+          "is_vulnerability_update": false
+        },
+        {
+          "sha": "e790d88e",
+          "message": "docs: improved README, added CONTRIBUTING file.",
+          "date": "2025-12-17T01:58:04Z",
+          "author": "Felipe Campos Penha",
+          "url": "https://github.com/OWASP/www-project-top-10-for-large-language-model-applications/commit/e790d88e537db9ff0705f50c7396714b5a9b8690",
+          "is_vulnerability_update": false
+        },
+        {
+          "sha": "5d8f0a9f",
+          "message": "feat: example accepts multiple attacks configured as list.",
+          "date": "2025-12-16T23:20:16Z",
+          "author": "Felipe Campos Penha",
+          "url": "https://github.com/OWASP/www-project-top-10-for-large-language-model-applications/commit/5d8f0a9f40da9cfe971915b4b73d6eb9add25954",
+          "is_vulnerability_update": true
+        },
+        {
+          "sha": "38219baf",
+          "message": "add ghostglyph tool to assist with ascii smuggling (#779)\n\n* added ghostglyph\n\n* added ghostglyph\n\n* added ignore",
+          "date": "2025-12-09T22:05:35Z",
+          "author": "Jason Ross",
+          "url": "https://github.com/OWASP/www-project-top-10-for-large-language-model-applications/commit/38219baf5e93ea2124c4a1ae32a4ae460f98b75a",
+          "is_vulnerability_update": false
+        },
+        {
+          "sha": "b1e72034",
+          "message": "Merge pull request #774 from felipepenha/genai-red-team-handbook\n\nGenAI Red Team Handbook: Add Exploitation Examples",
+          "date": "2025-12-09T20:53:36Z",
+          "author": "Jason Ross",
+          "url": "https://github.com/OWASP/www-project-top-10-for-large-language-model-applications/commit/b1e720349fcbc30dd8811ae8448fa5ead1b506d0",
+          "is_vulnerability_update": false
+        },
+        {
+          "sha": "0885f2b1",
+          "message": "Merge branch 'main' into patch-1\n\nSigned-off-by: Ron F. del Rosario <ronsurf23@gmail.com>",
+          "date": "2025-12-08T01:31:37Z",
+          "author": "Ron F. del Rosario",
+          "url": "https://github.com/OWASP/www-project-top-10-for-large-language-model-applications/commit/0885f2b160d6f9e549f4248f4213544390ee7459",
+          "is_vulnerability_update": false
+        },
+        {
+          "sha": "a3fec627",
+          "message": "Merge pull request #740 from OWASP/guerilla7-patch-2",
+          "date": "2025-12-08T01:28:40Z",
+          "author": "Ron F. del Rosario",
+          "url": "https://github.com/OWASP/www-project-top-10-for-large-language-model-applications/commit/a3fec627481002f61c25e9cede97253ad8b1c900",
+          "is_vulnerability_update": false
+        },
+        {
+          "sha": "b2ce887e",
+          "message": "Merge pull request #735 from OWASP/guerilla7-patch-1",
+          "date": "2025-12-08T01:28:11Z",
+          "author": "Ron F. del Rosario",
+          "url": "https://github.com/OWASP/www-project-top-10-for-large-language-model-applications/commit/b2ce887efc6332957bd39e7191655e93d49cf536",
+          "is_vulnerability_update": false
+        }
+      ],
+      "vulnerability_related_commits": [
+        {
+          "sha": "5d8f0a9f",
+          "message": "feat: example accepts multiple attacks configured as list.",
+          "date": "2025-12-16T23:20:16Z",
+          "author": "Felipe Campos Penha",
+          "url": "https://github.com/OWASP/www-project-top-10-for-large-language-model-applications/commit/5d8f0a9f40da9cfe971915b4b73d6eb9add25954",
+          "is_vulnerability_update": true
+        },
+        {
+          "sha": "6a7aa255",
+          "message": "Added idesaster vulns",
+          "date": "2025-12-06T21:37:59Z",
+          "author": "almogbhl",
+          "url": "https://github.com/OWASP/www-project-top-10-for-large-language-model-applications/commit/6a7aa25519d004d8c7da869bb73af534aea5a82a",
+          "is_vulnerability_update": true
+        }
+      ],
+      "open_issues": {
+        "issues": [
+          {
+            "number": 800,
+            "title": "Independent authorization-layer framework mapping against ASI03, ASI05, and ASI02 \u2014 possible community resource",
+            "state": "open",
+            "created_at": "2026-02-19T14:18:45Z",
+            "updated_at": "2026-03-10T02:49:00Z",
+            "comments": 23,
+            "labels": [],
+            "url": "https://github.com/OWASP/www-project-top-10-for-large-language-model-applications/issues/800"
+          },
+          {
+            "number": 802,
+            "title": "Runtime Enforcement Mapping for OWASP Agentic Top 10 (ASI01\u2013ASI10)",
+            "state": "open",
+            "created_at": "2026-03-05T06:21:57Z",
+            "updated_at": "2026-03-08T08:53:12Z",
+            "comments": 2,
+            "labels": [],
+            "url": "https://github.com/OWASP/www-project-top-10-for-large-language-model-applications/issues/802"
+          },
+          {
+            "number": 789,
+            "title": "typos",
+            "state": "open",
+            "created_at": "2026-01-03T15:28:11Z",
+            "updated_at": "2026-02-06T14:12:47Z",
+            "comments": 1,
+            "labels": [
+              "bug"
+            ],
+            "url": "https://github.com/OWASP/www-project-top-10-for-large-language-model-applications/issues/789"
+          }
+        ],
+        "count": 3
+      },
+      "activity_signal": {
+        "commits_last_20": 20,
+        "vuln_commits": 2,
+        "active": true
+      }
+    },
+    "ai_security": {
+      "description": "OWASP AI Security and Privacy Guide",
+      "metadata": {},
+      "latest_release": null,
+      "total_releases": 0,
+      "recent_commits": [
+        {
+          "sha": "0dc42492",
+          "message": "typo",
+          "date": "2026-03-09T16:56:16Z",
+          "author": "Rob van der Veer",
+          "url": "https://github.com/OWASP/www-project-ai-security-and-privacy-guide/commit/0dc4249279073999a0ecfce2cb17ea08e083c50b",
+          "is_vulnerability_update": false
+        },
+        {
+          "sha": "42fa33b8",
+          "message": "updated matrix. late",
+          "date": "2026-03-09T16:54:01Z",
+          "author": "Rob van der Veer",
+          "url": "https://github.com/OWASP/www-project-ai-security-and-privacy-guide/commit/42fa33b859218516e1ef72145d4209016cc31dfa",
+          "is_vulnerability_update": false
+        },
+        {
+          "sha": "f712b687",
+          "message": "added microsoft agentic security report",
+          "date": "2026-03-09T14:34:23Z",
+          "author": "Rob van der Veer",
+          "url": "https://github.com/OWASP/www-project-ai-security-and-privacy-guide/commit/f712b687df4dc052efc01867fd42c5cf2a9951f4",
+          "is_vulnerability_update": false
+        },
+        {
+          "sha": "4a11a425",
+          "message": "Add section-aware search highlighting and e2e coverage (#151)",
+          "date": "2026-03-04T11:16:26Z",
+          "author": "Spyros",
+          "url": "https://github.com/OWASP/www-project-ai-security-and-privacy-guide/commit/4a11a42551bda9421cd5d3c16a630878f540630a",
+          "is_vulnerability_update": false
+        },
+        {
+          "sha": "f44474f0",
+          "message": "added link to secprogram for the assets",
+          "date": "2026-03-04T09:13:00Z",
+          "author": "Rob van der Veer",
+          "url": "https://github.com/OWASP/www-project-ai-security-and-privacy-guide/commit/f44474f08639d203d84aa766990aadc8922ab2ae",
+          "is_vulnerability_update": false
+        },
+        {
+          "sha": "26772b50",
+          "message": "Update 1_general_controls.md",
+          "date": "2026-03-04T09:10:06Z",
+          "author": "Rob van der Veer",
+          "url": "https://github.com/OWASP/www-project-ai-security-and-privacy-guide/commit/26772b50feaa12fc6c25651aadce0fabe7c6c37b",
+          "is_vulnerability_update": false
+        },
+        {
+          "sha": "fa9b46fb",
+          "message": "Made clear that augmentation data can include system prompts",
+          "date": "2026-03-04T08:38:47Z",
+          "author": "Rob van der Veer",
+          "url": "https://github.com/OWASP/www-project-ai-security-and-privacy-guide/commit/fa9b46fb205ac2d319d9cf9d1f70cd1b0f3afc63",
+          "is_vulnerability_update": false
+        },
+        {
+          "sha": "7cea7dee",
+          "message": "augment to include system prompts",
+          "date": "2026-03-04T08:30:05Z",
+          "author": "Rob van der Veer",
+          "url": "https://github.com/OWASP/www-project-ai-security-and-privacy-guide/commit/7cea7deea1ce0ba3987cf0499780c7d0413046ba",
+          "is_vulnerability_update": false
+        },
+        {
+          "sha": "42794499",
+          "message": "Made it more clear augmentation data includes system prompts.",
+          "date": "2026-03-04T08:26:10Z",
+          "author": "Rob van der Veer",
+          "url": "https://github.com/OWASP/www-project-ai-security-and-privacy-guide/commit/42794499a358a9354eab18ac80f29c3c75afda74",
+          "is_vulnerability_update": false
+        },
+        {
+          "sha": "91f52ee8",
+          "message": "added a bit of a training plan to the getting started section",
+          "date": "2026-03-03T15:02:50Z",
+          "author": "Rob van der Veer",
+          "url": "https://github.com/OWASP/www-project-ai-security-and-privacy-guide/commit/91f52ee877b5ad7431335f7850ecae59aed84c8e",
+          "is_vulnerability_update": false
+        }
+      ],
+      "vulnerability_related_commits": [
+        {
+          "sha": "9d0eaa15",
+          "message": "Tweaks of risk analysis, especially on untrusted data",
+          "date": "2026-03-01T21:34:54Z",
+          "author": "Rob van der Veer",
+          "url": "https://github.com/OWASP/www-project-ai-security-and-privacy-guide/commit/9d0eaa151890dfbbb95ca4d3b4282d176a04fb9f",
+          "is_vulnerability_update": true
+        }
+      ],
+      "open_issues": {
+        "issues": [
+          {
+            "number": 149,
+            "title": "Embed Table of Contents (Outline/Bookmarks) Metadata in Generated PDF",
+            "state": "open",
+            "created_at": "2026-03-02T11:08:11Z",
+            "updated_at": "2026-03-02T11:08:11Z",
+            "comments": 0,
+            "labels": [],
+            "url": "https://github.com/OWASP/www-project-ai-security-and-privacy-guide/issues/149"
+          },
+          {
+            "number": 84,
+            "title": "Issues concerning the  _index.md files",
+            "state": "open",
+            "created_at": "2025-06-30T13:09:29Z",
+            "updated_at": "2026-01-26T09:58:10Z",
+            "comments": 4,
+            "labels": [],
+            "url": "https://github.com/OWASP/www-project-ai-security-and-privacy-guide/issues/84"
+          },
+          {
+            "number": 74,
+            "title": "Add Persian Translation",
+            "state": "open",
+            "created_at": "2025-06-03T09:27:58Z",
+            "updated_at": "2025-06-09T11:33:03Z",
+            "comments": 5,
+            "labels": [],
+            "url": "https://github.com/OWASP/www-project-ai-security-and-privacy-guide/issues/74"
+          },
+          {
+            "number": 12,
+            "title": "Process ENISA presentations of AI security conference June 2023",
+            "state": "open",
+            "created_at": "2023-06-18T19:20:49Z",
+            "updated_at": "2025-05-20T16:04:42Z",
+            "comments": 4,
+            "labels": [],
+            "url": "https://github.com/OWASP/www-project-ai-security-and-privacy-guide/issues/12"
+          },
+          {
+            "number": 11,
+            "title": "Process article by Susanna Cox on ML ops controls",
+            "state": "open",
+            "created_at": "2023-06-17T19:40:50Z",
+            "updated_at": "2025-05-19T15:45:19Z",
+            "comments": 1,
+            "labels": [],
+            "url": "https://github.com/OWASP/www-project-ai-security-and-privacy-guide/issues/11"
+          },
+          {
+            "number": 14,
+            "title": "Do gap analysis with responsible AI guide",
+            "state": "open",
+            "created_at": "2023-07-09T14:50:12Z",
+            "updated_at": "2025-02-26T07:07:47Z",
+            "comments": 1,
+            "labels": [],
+            "url": "https://github.com/OWASP/www-project-ai-security-and-privacy-guide/issues/14"
+          },
+          {
+            "number": 35,
+            "title": "Controls in table format",
+            "state": "open",
+            "created_at": "2024-01-20T19:32:35Z",
+            "updated_at": "2025-02-26T07:07:14Z",
+            "comments": 4,
+            "labels": [],
+            "url": "https://github.com/OWASP/www-project-ai-security-and-privacy-guide/issues/35"
+          },
+          {
+            "number": 6,
+            "title": "Have a vulnerable AI project :-)?",
+            "state": "open",
+            "created_at": "2023-03-24T05:51:18Z",
+            "updated_at": "2024-01-22T01:56:42Z",
+            "comments": 4,
+            "labels": [],
+            "url": "https://github.com/OWASP/www-project-ai-security-and-privacy-guide/issues/6"
+          },
+          {
+            "number": 10,
+            "title": "Process podcast to see if anything new",
+            "state": "open",
+            "created_at": "2023-06-17T19:40:06Z",
+            "updated_at": "2023-06-17T19:40:06Z",
+            "comments": 0,
+            "labels": [],
+            "url": "https://github.com/OWASP/www-project-ai-security-and-privacy-guide/issues/10"
+          }
+        ],
+        "count": 9
+      },
+      "activity_signal": {
+        "commits_last_20": 20,
+        "vuln_commits": 1,
+        "active": true
+      }
+    },
+    "ml_top_10": {
+      "description": "OWASP Machine Learning Security Top 10",
+      "metadata": {
+        "stars": 98,
+        "forks": 27,
+        "open_issues": 49,
+        "last_push": "2025-12-22T00:22:06Z",
+        "license": "NOASSERTION"
+      },
+      "latest_release": {
+        "tag": "v0.3",
+        "name": "v0.3",
+        "published_at": "2023-09-29T00:31:55Z",
+        "prerelease": true,
+        "url": "https://github.com/OWASP/www-project-machine-learning-security-top-10/releases/tag/v0.3",
+        "body_preview": "## What's Changed\r\n* fix: make draft status more prominent by @shsingh in https://github.com/OWASP/www-project-machine-learning-security-top-10/pull/97\r\n* fix: remove 2023 directory by @shsingh in https://github.com/OWASP/www-project-machine-learning-security-top-10/pull/98\r\n* guidelines draft by @mik0w in https://github.com/OWASP/www-project-machine-learning-security-top-10/pull/101\r\n* refactor: change neural net reprogramming to model poisoning by @shsingh in https://github.com/OWASP/www-proje"
+      },
+      "total_releases": 3,
+      "recent_commits": [
+        {
+          "sha": "f0b0ed24",
+          "message": "Merge pull request #221 from OWASP/dependabot/github_actions/owasp/nest-schema-0.1.46\n\nchore(deps): bump owasp/nest-schema from 0.1.24 to 0.1.46",
+          "date": "2025-12-01T04:19:22Z",
+          "author": "Benjamin Kereopa-Yorke",
+          "url": "https://github.com/OWASP/www-project-machine-learning-security-top-10/commit/f0b0ed240c4d367ce483ab2ed2edf3563a5d29b9",
+          "is_vulnerability_update": false
+        },
+        {
+          "sha": "f4214514",
+          "message": "Merge branch 'master' into dependabot/github_actions/owasp/nest-schema-0.1.46",
+          "date": "2025-12-01T04:19:13Z",
+          "author": "Benjamin Kereopa-Yorke",
+          "url": "https://github.com/OWASP/www-project-machine-learning-security-top-10/commit/f421451470257a19a22440d709eeee7144b171d8",
+          "is_vulnerability_update": false
+        },
+        {
+          "sha": "20228b35",
+          "message": "Merge pull request #218 from OWASP/dependabot/github_actions/actions/checkout-6\n\nchore(deps): bump actions/checkout from 5 to 6",
+          "date": "2025-12-01T04:18:57Z",
+          "author": "Benjamin Kereopa-Yorke",
+          "url": "https://github.com/OWASP/www-project-machine-learning-security-top-10/commit/20228b350a4206e35d8af227196876e58f820fe4",
+          "is_vulnerability_update": false
+        },
+        {
+          "sha": "f4653bdd",
+          "message": "chore(deps): bump owasp/nest-schema from 0.1.24 to 0.1.46\n\nBumps [owasp/nest-schema](https://github.com/owasp/nest-schema) from 0.1.24 to 0.1.46.\n- [Release notes](https://github.com/owasp/nest-schema/releases)\n- [Commits](https://github.com/owasp/nest-schema/compare/a733198b4a942eb12d3ee8629cd9e0d4",
+          "date": "2025-12-01T00:56:44Z",
+          "author": "dependabot[bot]",
+          "url": "https://github.com/OWASP/www-project-machine-learning-security-top-10/commit/f4653bdde7bb5a9b9024ef57ea7c18c9c044ff97",
+          "is_vulnerability_update": false
+        },
+        {
+          "sha": "c6cb758f",
+          "message": "chore(deps): bump actions/checkout from 5 to 6\n\nBumps [actions/checkout](https://github.com/actions/checkout) from 5 to 6.\n- [Release notes](https://github.com/actions/checkout/releases)\n- [Changelog](https://github.com/actions/checkout/blob/main/CHANGELOG.md)\n- [Commits](https://github.com/actions/",
+          "date": "2025-11-21T14:02:24Z",
+          "author": "dependabot[bot]",
+          "url": "https://github.com/OWASP/www-project-machine-learning-security-top-10/commit/c6cb758fe66d650b9a675c924b9a3db4a92798db",
+          "is_vulnerability_update": false
+        },
+        {
+          "sha": "b1cff8ab",
+          "message": "Merge pull request #217 from OWASP/nest/owasp-machine-learning-security-top-ten-metadata\n\nAdd OWASP Machine Learning Security Top Ten metadata",
+          "date": "2025-11-21T14:01:49Z",
+          "author": "Benjamin Kereopa-Yorke",
+          "url": "https://github.com/OWASP/www-project-machine-learning-security-top-10/commit/b1cff8abd495302bea80a5172c9731d8a7a050d4",
+          "is_vulnerability_update": false
+        },
+        {
+          "sha": "4810138c",
+          "message": "Add OWASP Machine Learning Security Top Ten metadata\n\nGenerated on 2025-10-06 by Arkadii Yakovets as part of the OWASP Schema initiative within OWASP Nest.\nRepository: `OWASP/www-project-machine-learning-security-top-10`\n\nCo-authored-by: Arkadii Yakovets <arkadii.yakovets@owasp.org>",
+          "date": "2025-10-06T15:22:39Z",
+          "author": "owasp-nest[bot]",
+          "url": "https://github.com/OWASP/www-project-machine-learning-security-top-10/commit/4810138ccee5ea247f33660d13672b86a9ddfdfa",
+          "is_vulnerability_update": false
+        },
+        {
+          "sha": "b84fe334",
+          "message": "Merge pull request #215 from OWASP/develop\n\ndocs: add Ben-KY to leaders.md",
+          "date": "2025-02-01T07:37:28Z",
+          "author": "Shain Singh",
+          "url": "https://github.com/OWASP/www-project-machine-learning-security-top-10/commit/b84fe3346bded00c3c2743ea5bede0486d010c3d",
+          "is_vulnerability_update": false
+        },
+        {
+          "sha": "d5075c48",
+          "message": "Merge branch 'master' into develop",
+          "date": "2025-02-01T07:36:43Z",
+          "author": "Shain Singh",
+          "url": "https://github.com/OWASP/www-project-machine-learning-security-top-10/commit/d5075c48143d004dc2d3905c40432a8c964d1000",
+          "is_vulnerability_update": false
+        },
+        {
+          "sha": "98e67388",
+          "message": "docs: add Ben-KY to leaders.md",
+          "date": "2025-02-01T07:34:14Z",
+          "author": "Shain Singh",
+          "url": "https://github.com/OWASP/www-project-machine-learning-security-top-10/commit/98e67388843eb107aeca0a6d0b7cc38a387bea62",
+          "is_vulnerability_update": false
+        }
+      ],
+      "vulnerability_related_commits": [],
+      "open_issues": {
+        "issues": [
+          {
+            "number": 210,
+            "title": "[FEEDBACK]: Description of ML04 Membership Inference Attack",
+            "state": "open",
+            "created_at": "2024-06-04T09:35:23Z",
+            "updated_at": "2024-06-04T09:35:23Z",
+            "comments": 0,
+            "labels": [
+              "issues/general",
+              "issues/triage"
+            ],
+            "url": "https://github.com/OWASP/www-project-machine-learning-security-top-10/issues/210"
+          },
+          {
+            "number": 188,
+            "title": "[FEEDBACK]: Include MLOps vulnerabilties somewhere in the Supply Chain Security category ",
+            "state": "open",
+            "created_at": "2023-11-17T10:26:02Z",
+            "updated_at": "2024-05-01T22:47:26Z",
+            "comments": 3,
+            "labels": [
+              "issues/general",
+              "issues/triage"
+            ],
+            "url": "https://github.com/OWASP/www-project-machine-learning-security-top-10/issues/188"
+          },
+          {
+            "number": 142,
+            "title": "feat(docs): create a recorded demo of ML07 Transfer Learning Attack",
+            "state": "open",
+            "created_at": "2023-10-30T02:24:55Z",
+            "updated_at": "2024-03-16T16:24:15Z",
+            "comments": 0,
+            "labels": [
+              "enhancement",
+              "help wanted",
+              "documentation/demos"
+            ],
+            "url": "https://github.com/OWASP/www-project-machine-learning-security-top-10/issues/142"
+          },
+          {
+            "number": 155,
+            "title": "feat(docs): create a cheatsheet for ML07 Transfer Learning Attack",
+            "state": "open",
+            "created_at": "2023-10-30T05:00:22Z",
+            "updated_at": "2024-03-16T09:59:42Z",
+            "comments": 6,
+            "labels": [
+              "enhancement",
+              "documentation/cheatsheets"
+            ],
+            "url": "https://github.com/OWASP/www-project-machine-learning-security-top-10/issues/155"
+          },
+          {
+            "number": 189,
+            "title": "[FEEDBACK]: Include a page with a brief descriptions of each of the vulnerabilities",
+            "state": "open",
+            "created_at": "2023-11-23T12:08:47Z",
+            "updated_at": "2024-03-14T07:58:49Z",
+            "comments": 4,
+            "labels": [
+              "issues/general",
+              "issues/triage"
+            ],
+            "url": "https://github.com/OWASP/www-project-machine-learning-security-top-10/issues/189"
+          },
+          {
+            "number": 141,
+            "title": "feat(docs): create a recorded demo of ML06 AI Supply Chain Attacks",
+            "state": "open",
+            "created_at": "2023-10-30T02:24:29Z",
+            "updated_at": "2024-03-13T10:49:00Z",
+            "comments": 0,
+            "labels": [
+              "enhancement",
+              "help wanted",
+              "documentation/demos"
+            ],
+            "url": "https://github.com/OWASP/www-project-machine-learning-security-top-10/issues/141"
+          },
+          {
+            "number": 178,
+            "title": "feat(docs): create a GLOSSARY page of commonly used terms",
+            "state": "open",
+            "created_at": "2023-10-31T16:48:52Z",
+            "updated_at": "2024-03-11T21:22:07Z",
+            "comments": 2,
+            "labels": [
+              "documentation/general",
+              "help wanted"
+            ],
+            "url": "https://github.com/OWASP/www-project-machine-learning-security-top-10/issues/178"
+          },
+          {
+            "number": 136,
+            "title": "feat(docs): create a recorded demo of ML01 Input Manipulation Attack",
+            "state": "open",
+            "created_at": "2023-10-30T02:17:12Z",
+            "updated_at": "2024-02-20T10:25:26Z",
+            "comments": 0,
+            "labels": [
+              "enhancement",
+              "help wanted",
+              "documentation/demos"
+            ],
+            "url": "https://github.com/OWASP/www-project-machine-learning-security-top-10/issues/136"
+          },
+          {
+            "number": 143,
+            "title": "feat(docs): create a recorded demo of ML08 Model Skewing",
+            "state": "open",
+            "created_at": "2023-10-30T02:25:34Z",
+            "updated_at": "2024-02-20T10:25:24Z",
+            "comments": 0,
+            "labels": [
+              "enhancement",
+              "help wanted",
+              "documentation/demos"
+            ],
+            "url": "https://github.com/OWASP/www-project-machine-learning-security-top-10/issues/143"
+          },
+          {
+            "number": 147,
+            "title": "feat(docs): create a cheatsheet for ML01 Input Manipulation Attacks ",
+            "state": "open",
+            "created_at": "2023-10-30T02:48:12Z",
+            "updated_at": "2024-02-14T11:17:37Z",
+            "comments": 1,
+            "labels": [
+              "enhancement",
+              "help wanted",
+              "documentation/cheatsheets"
+            ],
+            "url": "https://github.com/OWASP/www-project-machine-learning-security-top-10/issues/147"
+          },
+          {
+            "number": 163,
+            "title": "chore(admin): assign owner(s) for ML01 Input Validation Attack",
+            "state": "open",
+            "created_at": "2023-10-30T06:21:05Z",
+            "updated_at": "2024-02-14T09:21:36Z",
+            "comments": 2,
+            "labels": [
+              "help wanted",
+              "documentation/risks"
+            ],
+            "url": "https://github.com/OWASP/www-project-machine-learning-security-top-10/issues/163"
+          },
+          {
+            "number": 140,
+            "title": "feat(docs): create a recorded demo of ML05 Model Theft",
+            "state": "open",
+            "created_at": "2023-10-30T02:24:06Z",
+            "updated_at": "2023-12-29T00:54:05Z",
+            "comments": 0,
+            "labels": [
+              "enhancement",
+              "help wanted",
+              "documentation/demos"
+            ],
+            "url": "https://github.com/OWASP/www-project-machine-learning-security-top-10/issues/140"
+          },
+          {
+            "number": 153,
+            "title": "feat(docs): create a cheatsheet for ML05 Model Theft",
+            "state": "open",
+            "created_at": "2023-10-30T04:59:34Z",
+            "updated_at": "2023-12-29T00:53:36Z",
+            "comments": 0,
+            "labels": [
+              "enhancement",
+              "help wanted",
+              "documentation/cheatsheets"
+            ],
+            "url": "https://github.com/OWASP/www-project-machine-learning-security-top-10/issues/153"
+          }
+        ],
+        "count": 13
+      },
+      "activity_signal": {
+        "commits_last_20": 20,
+        "vuln_commits": 0,
+        "active": true
+      }
+    }
+  },
+  "summary": {
+    "repos_tracked": 3,
+    "total_vuln_commits": 3,
+    "most_active": "llm_top_10"
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "timestamp": "2026-03-10T11:49:10.357773+00:00",
+  "compliance_deadlines": [
+    {
+      "milestone": "Prohibited AI practices ban",
+      "date": "2025-02-02",
+      "article": "Article 5",
+      "penalty_max_eur": 35000000,
+      "penalty_max_pct_turnover": 7,
+      "days_remaining": -401,
+      "urgency": "past_due",
+      "enforcement_active": true
+    },
+    {
+      "milestone": "GPAI model obligations",
+      "date": "2025-08-02",
+      "article": "Articles 51-56",
+      "penalty_max_eur": 15000000,
+      "penalty_max_pct_turnover": 3,
+      "days_remaining": -220,
+      "urgency": "past_due",
+      "enforcement_active": true
+    },
+    {
+      "milestone": "High-risk AI systems (Annex III)",
+      "date": "2026-08-02",
+      "article": "Articles 6-49",
+      "penalty_max_eur": 15000000,
+      "penalty_max_pct_turnover": 3,
+      "days_remaining": 145,
+      "urgency": "high",
+      "enforcement_active": false
+    },
+    {
+      "milestone": "High-risk AI in Annex I sectors",
+      "date": "2027-08-02",
+      "article": "Article 6(1)",
+      "penalty_max_eur": 15000000,
+      "penalty_max_pct_turnover": 3,
+      "days_remaining": 510,
+      "urgency": "low",
+      "enforcement_active": false
+    }
+  ],
+  "next_critical_deadline": {
+    "milestone": "High-risk AI systems (Annex III)",
+    "date": "2026-08-02",
+    "article": "Articles 6-49",
+    "penalty_max_eur": 15000000,
+    "penalty_max_pct_turnover": 3,
+    "days_remaining": 145,
+    "urgency": "high",
+    "enforcement_active": false
+  },
+  "recent_documents": [],
+  "ai_office_updates": [],
+  "corrigenda_amendments": [],
+  "summary": {
+    "total_deadlines": 4,
+    "past_due": 2,
+    "critical": 0,
+    "documents_found": 0,
+    "ai_office_updates_found": 0
+  }
+}
