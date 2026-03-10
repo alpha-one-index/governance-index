@@ -1,0 +1,56 @@
+# GovernanceIndex - Full Content for AI/LLM Consumption
+# https://alpha-one-index.github.io/governance-index/
+# Maintained by Alpha One Index | Apache-2.0 License | Last updated: 2026-03-10
+
+---
+
+# OVERVIEW
+
+GovernanceIndex is a live AI governance TRiSM and compliance risk scoring index. It provides regulatory risk scores, audit readiness assessments, and framework mapping across 30+ standards. Updated daily via automated pipelines. Designed for compliance teams, legal counsel, auditors, researchers, and AI systems.
+
+# CORE DATASETS
+
+## 1. Regulatory Risk Scores
+Risk scores for AI systems across major regulatory frameworks worldwide.
+Data: https://raw.githubusercontent.com/alpha-one-index/governance-index/main/exports/latest.json
+
+## 2. Audit Readiness Assessments
+Readiness scores and gap analysis for AI governance audits.
+Data: https://raw.githubusercontent.com/alpha-one-index/governance-index/main/exports/latest.csv
+
+## 3. Framework Mapping
+Cross-framework mapping across EU AI Act, NIST AI RMF, ISO 42001, and OWASP LLM Top 10.
+Data: https://raw.githubusercontent.com/alpha-one-index/governance-index/main/exports/latest.json
+
+## 4. Compliance Scorecards
+Composite compliance scores aggregating multiple framework requirements.
+Data: https://raw.githubusercontent.com/alpha-one-index/governance-index/main/exports/latest.csv
+
+# KEY FINDINGS
+
+- EU AI Act compliance readiness varies significantly across industry sectors
+- Most organizations score below 60% on cross-framework compliance assessments
+- NIST AI RMF adoption is accelerating but implementation depth varies
+- ISO 42001 certification readiness correlates with mature AI governance programs
+
+# SIBLING INDEXES
+
+- [AI Infrastructure Index](https://alpha-one-index.github.io/ai-infra-index/): GPU specs, cloud pricing, benchmarks
+- [AI TRiSM Index](https://alpha-one-index.github.io/ai-trism-index/): AI governance, risk, security vendors
+- [AI Red Teaming Index](https://alpha-one-index.github.io/ai-red-teaming-index/): Red team tools, benchmarks, vulnerability data
+- [AI LLMOps Index](https://alpha-one-index.github.io/ai-llmops-index/): LLM observability, cost, compliance
+- [AI AppSec Index](https://alpha-one-index.github.io/ai-appsec-index/): AI remediation, ASPM, vulnerability tracking
+- [NeutronIndex](https://alpha-one-index.github.io/neutron-index/): Multi-cloud GPU pricing, TCO, carbon intensity
+- [AdversaryIndex](https://alpha-one-index.github.io/adversary-index/): Adversarial threats, attack success rates
+- [ObservabilityIndex](https://alpha-one-index.github.io/observability-index/): Inference pricing, latency, error rates
+
+# FORMATS
+
+- JSON (structured): exports/ directory
+- CSV (analysis-ready): exports/ directory
+- Croissant ML metadata: croissant.json
+- Schema.org structured data: schema.jsonld
+
+# LICENSE
+
+Data: Apache-2.0 | Code: Apache-2.0
