@@ -1,0 +1,42 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "GovernanceIndex",
+  "description": "Live AI governance TRiSM and compliance risk scoring index. Regulatory risk scores, audit readiness, and framework mapping across 30+ standards, updated daily.",
+  "url": "https://alpha-one-index.github.io/governance-index/",
+  "sameAs": "https://github.com/alpha-one-index/governance-index",
+  "license": "https://opensource.org/licenses/Apache-2.0",
+  "isAccessibleForFree": true,
+  "creator": {
+    "@type": "Organization",
+    "name": "Alpha One Index",
+    "url": "https://github.com/alpha-one-index"
+  },
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "application/json",
+      "contentUrl": "https://raw.githubusercontent.com/alpha-one-index/governance-index/main/exports/latest.json"
+    },
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "https://raw.githubusercontent.com/alpha-one-index/governance-index/main/exports/latest.csv"
+    }
+  ],
+  "keywords": [
+    "AI governance",
+    "TRiSM",
+    "compliance risk",
+    "regulatory framework",
+    "EU AI Act",
+    "NIST AI RMF",
+    "ISO 42001",
+    "OWASP LLM Top 10",
+    "audit readiness",
+    "risk scoring"
+  ],
+  "datePublished": "2026-03-10",
+  "dateModified": "2026-03-10",
+  "version": "1.0.0"
+}
