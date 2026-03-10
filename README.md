@@ -29,6 +29,12 @@ Regulatory landscapes shift constantly. GovernanceIndex tracks them in real-time
 | OWASP GitHub | LLM Top 10 vulnerabilities and updates | Daily |
 | ISO 42001 Registry | AI management system standard mappings | Daily |
 | National AI Policy Trackers | Global regulatory landscape changes | Daily |
+| EUR-Lex Live Feed | Real-time AI Act amendments and corrigenda | Daily |
+| EU AI Office | Guidance documents and enforcement updates | Daily |
+| NIST CSRC RSS | AI RMF publications and news feed | Daily |
+| NVD CVE API | AI-related vulnerability disclosures | Daily |
+| OWASP GitHub Tracker | LLM Top 10 commits, releases, and issues | Daily |
+| NIST-ISO Crossmap | AI RMF to ISO 42001 control mappings | Daily |
 
 ## Schema
 
