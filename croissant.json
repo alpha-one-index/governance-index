@@ -1,0 +1,77 @@
+{
+  "@context": {
+    "@language": "en",
+    "@vocab": "https://schema.org/",
+    "cr": "http://mlcommons.org/croissant/",
+    "rai": "http://mlcommons.org/croissant/RAI/",
+    "sc": "https://schema.org/",
+    "dct": "http://purl.org/dc/terms/"
+  },
+  "@type": "sc:Dataset",
+  "name": "GovernanceIndex",
+  "description": "Live AI governance TRiSM and compliance risk scoring. Regulatory risk scores, audit readiness, and framework mapping across EU AI Act, NIST AI RMF, ISO 42001, and OWASP LLM Top 10, updated daily.",
+  "url": "https://github.com/alpha-one-index/governance-index",
+  "conformsTo": "http://mlcommons.org/croissant/1.0",
+  "license": "https://opensource.org/licenses/Apache-2.0",
+  "version": "1.0.0",
+  "dateCreated": "2026-03-10",
+  "dateModified": "2026-03-10",
+  "datePublished": "2026-03-10",
+  "creator": {
+    "@type": "sc:Organization",
+    "name": "Alpha One Index",
+    "url": "https://github.com/alpha-one-index"
+  },
+  "keywords": [
+    "AI governance",
+    "TRiSM",
+    "compliance risk",
+    "EU AI Act",
+    "NIST AI RMF",
+    "ISO 42001",
+    "regulatory scoring",
+    "audit readiness",
+    "framework mapping"
+  ],
+  "inLanguage": "en",
+  "isAccessibleForFree": true,
+  "citation": "Alpha One Index. (2026). GovernanceIndex. https://github.com/alpha-one-index/governance-index",
+  "rai:dataCollection": "Regulatory data sourced from EU AI Act official texts, NIST AI RMF publications, ISO 42001 standards, and OWASP LLM Top 10. All public regulatory sources.",
+  "rai:dataCollectionType": "Automated API Collection",
+  "rai:personalSensitiveInformation": "none",
+  "rai:dataBiases": "Coverage weighted toward major international frameworks. Regional or sector-specific regulations may be underrepresented. Risk scores are interpretive assessments.",
+  "rai:dataLimitations": [
+    "Regulatory interpretations may differ across jurisdictions",
+    "Risk scores are algorithmic assessments not legal advice",
+    "Framework coverage focused on major international standards",
+    "Compliance mappings are approximations and may not capture all nuances"
+  ],
+  "distribution": [
+    {
+      "@type": "cr:FileObject",
+      "@id": "latest-csv",
+      "name": "GovernanceIndex Latest CSV",
+      "description": "Full governance dataset in CSV format, updated daily",
+      "contentUrl": "https://raw.githubusercontent.com/alpha-one-index/governance-index/main/exports/governance_index.csv",
+      "encodingFormat": "text/csv",
+      "sha256": "dynamic"
+    },
+    {
+      "@type": "cr:FileObject",
+      "@id": "latest-json",
+      "name": "GovernanceIndex Latest JSON",
+      "description": "Full governance dataset in JSON format, updated daily",
+      "contentUrl": "https://raw.githubusercontent.com/alpha-one-index/governance-index/main/exports/governance_index.json",
+      "encodingFormat": "application/json",
+      "sha256": "dynamic"
+    },
+    {
+      "@type": "cr:FileObject",
+      "@id": "readme-md",
+      "name": "Documentation",
+      "description": "Primary dataset documentation with schema, methodology, and usage instructions",
+      "contentUrl": "https://raw.githubusercontent.com/alpha-one-index/governance-index/main/README.md",
+      "encodingFormat": "text/markdown"
+    }
+  ]
+}
