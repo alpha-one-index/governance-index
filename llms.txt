@@ -1,0 +1,38 @@
+# GovernanceIndex
+# https://alpha-one-index.github.io/governance-index/
+# Maintained by Alpha One Index
+
+> Open-source AI governance and compliance risk scoring platform. Regulatory risk scores, audit readiness, and framework mapping across EU AI Act, NIST AI RMF, ISO 42001, and OWASP LLM Top 10, updated daily via automated pipelines.
+
+## Overview
+
+GovernanceIndex is a cross-framework AI compliance tracker covering:
+- EU AI Act compliance deadlines, enforcement status, and penalty exposure
+- NIST AI RMF control mappings with ISO 42001 cross-references
+- OWASP LLM Top 10 vulnerability tracking with severity scoring
+- Regulatory risk scores across 30+ standards and frameworks
+- Audit readiness assessments and gap analysis
+- Jurisdiction-specific compliance requirements
+
+## Key Facts
+
+- 30+ regulatory frameworks tracked
+- Cross-framework control mappings (EU AI Act, NIST AI RMF, ISO 42001, OWASP)
+- Daily automated updates via GitHub Actions
+- Machine-readable JSON/CSV exports
+- Apache 2.0 License
+
+## Pages
+
+- [Homepage](https://alpha-one-index.github.io/governance-index/): Overview, compliance dashboard, risk scoring
+
+## Citation
+
+@misc{governanceindex2026,
+  title = {GovernanceIndex},
+  author = {Alpha One Index},
+  year = {2026},
+  url = {https://github.com/alpha-one-index/governance-index}
+}
+
+Last updated: 2026-03-10
