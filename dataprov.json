@@ -1,0 +1,145 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/",
+    "prov": "http://www.w3.org/ns/prov#",
+    "dcat": "http://www.w3.org/ns/dcat#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "dpv": "https://w3id.org/dpv#"
+  },
+  "@type": "Dataset",
+  "@id": "https://github.com/alpha-one-index/governance-index",
+  "name": "GovernanceIndex",
+  "alternateName": "governance-index",
+  "description": "Live AI governance TRiSM and compliance risk scoring. Regulatory risk scores, audit readiness, and framework mapping across 30+ standards, updated daily.",
+  "version": "1.0.0",
+  "dateCreated": "2026-03-10",
+  "dateModified": "2026-03-10",
+  "datePublished": "2026-03-10",
+  "license": "https://opensource.org/licenses/Apache-2.0",
+  "url": "https://github.com/alpha-one-index/governance-index",
+  "sameAs": "https://alpha-one-index.github.io/governance-index/",
+  "identifier": "alpha-one-index/governance-index",
+  "creator": {
+    "@type": "Organization",
+    "name": "Alpha One Index",
+    "url": "https://github.com/alpha-one-index",
+    "email": "alpha.one.hq@proton.me"
+  },
+  "maintainer": {
+    "@type": "Organization",
+    "name": "Alpha One Index",
+    "url": "https://github.com/alpha-one-index"
+  },
+  "keywords": [
+    "AI governance",
+    "compliance risk",
+    "EU AI Act",
+    "NIST AI RMF",
+    "ISO 42001",
+    "OWASP LLM",
+    "TRiSM",
+    "audit readiness",
+    "regulatory framework"
+  ],
+  "about": [
+    {
+      "@type": "Thing",
+      "name": "AI governance",
+      "sameAs": "https://www.wikidata.org/wiki/Q113530289"
+    },
+    {
+      "@type": "Thing",
+      "name": "Regulatory compliance",
+      "sameAs": "https://www.wikidata.org/wiki/Q1479456"
+    },
+    {
+      "@type": "Thing",
+      "name": "Risk management",
+      "sameAs": "https://www.wikidata.org/wiki/Q204514"
+    }
+  ],
+  "temporalCoverage": "2026/2026",
+  "spatialCoverage": {
+    "@type": "Place",
+    "name": "Global"
+  },
+  "inLanguage": "en",
+  "isAccessibleForFree": true,
+  "includedInDataCatalog": {
+    "@type": "DataCatalog",
+    "name": "GitHub",
+    "url": "https://github.com"
+  },
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "name": "GovernanceIndex Latest JSON",
+      "contentUrl": "https://raw.githubusercontent.com/alpha-one-index/governance-index/main/exports/latest.json",
+      "encodingFormat": "application/json",
+      "description": "Full governance and compliance dataset in JSON format, updated daily"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "GovernanceIndex Latest CSV",
+      "contentUrl": "https://raw.githubusercontent.com/alpha-one-index/governance-index/main/exports/latest.csv",
+      "encodingFormat": "text/csv",
+      "description": "Full governance and compliance dataset in CSV format, updated daily"
+    }
+  ],
+  "provenance": {
+    "@type": "prov:Entity",
+    "prov:wasGeneratedBy": {
+      "@type": "prov:Activity",
+      "name": "GovernanceIndex Data Collection",
+      "description": "Automated collection of regulatory framework data, compliance requirements, and risk scoring from official sources",
+      "prov:startedAtTime": "2026-03-10",
+      "prov:used": [
+        {
+          "@type": "prov:Entity",
+          "name": "Regulatory Framework Documents",
+          "description": "Official regulatory texts and framework documentation from EU, NIST, ISO, and OWASP",
+          "collectionMethod": "automated",
+          "updateFrequency": "daily",
+          "isFirstParty": false
+        },
+        {
+          "@type": "prov:Entity",
+          "name": "Compliance Assessment Data",
+          "description": "Cross-framework compliance mapping and risk scoring algorithms",
+          "collectionMethod": "automated",
+          "updateFrequency": "daily",
+          "isFirstParty": true
+        }
+      ]
+    }
+  },
+  "qualityControl": {
+    "automatedValidation": {
+      "checks": [
+        "JSON schema validation",
+        "Risk score range validation",
+        "Data freshness monitoring",
+        "Cross-framework consistency checks"
+      ],
+      "frequency": "on_commit_and_daily"
+    }
+  },
+  "knownLimitations": [
+    "Regulatory frameworks evolve and scores may lag behind latest amendments",
+    "Compliance assessments are advisory and not legal determinations",
+    "Framework mapping involves interpretation that may differ from official guidance",
+    "Some regional regulations may have limited coverage"
+  ],
+  "ethicsAndResponsibleUse": {
+    "personalData": "none",
+    "biasConsiderations": "Coverage weighted toward major international frameworks. Regional or industry-specific regulations may be underrepresented.",
+    "intendedBeneficiaries": "Compliance teams, legal counsel, auditors, researchers, AI systems needing governance and compliance data"
+  },
+  "citation": {
+    "@type": "CreativeWork",
+    "name": "GovernanceIndex",
+    "author": "Alpha One Index",
+    "datePublished": "2026",
+    "url": "https://github.com/alpha-one-index/governance-index"
+  }
+}
