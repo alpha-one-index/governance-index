@@ -1,0 +1,105 @@
+{
+  "metadata": {
+    "dataset": "AI Regulatory Impact Tracker",
+    "version": "1.0.0",
+    "generated": "2026-03-12T05:00:00Z",
+    "description": "Proprietary tracker of AI regulatory actions, enforcement decisions, and their measurable impact on industry",
+    "methodology": "Systematic monitoring of regulatory gazettes, enforcement databases, and industry compliance reports"
+  },
+  "enforcement_actions": [
+    {
+      "id": "ENF-2026-001",
+      "jurisdiction": "EU",
+      "date": "2026-02-15",
+      "authority": "Italian DPA (Garante)",
+      "target_type": "foundation_model_provider",
+      "action_type": "fine",
+      "fine_eur": 15000000,
+      "violation_category": "transparency_failure",
+      "ai_system_type": "large_language_model",
+      "regulation_cited": "EU AI Act Art. 52",
+      "industry_impact_score": 8.5,
+      "precedent_setting": true,
+      "compliance_cost_estimate_eur": 2500000,
+      "remediation_deadline_days": 90
+    },
+    {
+      "id": "ENF-2026-002",
+      "jurisdiction": "US",
+      "date": "2026-01-22",
+      "authority": "FTC",
+      "target_type": "ai_hiring_platform",
+      "action_type": "consent_order",
+      "fine_eur": 4200000,
+      "violation_category": "algorithmic_discrimination",
+      "ai_system_type": "automated_decision_system",
+      "regulation_cited": "FTC Act Section 5",
+      "industry_impact_score": 7.2,
+      "precedent_setting": true,
+      "compliance_cost_estimate_eur": 1800000,
+      "remediation_deadline_days": 60
+    },
+    {
+      "id": "ENF-2026-003",
+      "jurisdiction": "CN",
+      "date": "2026-02-28",
+      "authority": "CAC",
+      "target_type": "generative_ai_service",
+      "action_type": "service_suspension",
+      "fine_eur": 0,
+      "violation_category": "content_safety_failure",
+      "ai_system_type": "generative_ai",
+      "regulation_cited": "Interim Measures Art. 14",
+      "industry_impact_score": 9.1,
+      "precedent_setting": false,
+      "compliance_cost_estimate_eur": 5000000,
+      "remediation_deadline_days": 30
+    }
+  ],
+  "regulatory_pipeline": [
+    {
+      "id": "REG-2026-001",
+      "jurisdiction": "EU",
+      "title": "AI Liability Directive",
+      "status": "trilogue",
+      "expected_adoption": "2026-Q3",
+      "impact_assessment": "high",
+      "affected_sectors": ["healthcare", "finance", "automotive"],
+      "estimated_compliance_cost_eur": 8000000,
+      "readiness_score": 3.2
+    },
+    {
+      "id": "REG-2026-002",
+      "jurisdiction": "US",
+      "title": "Federal AI Accountability Act",
+      "status": "committee_review",
+      "expected_adoption": "2026-Q4",
+      "impact_assessment": "critical",
+      "affected_sectors": ["all"],
+      "estimated_compliance_cost_eur": 12000000,
+      "readiness_score": 2.1
+    },
+    {
+      "id": "REG-2026-003",
+      "jurisdiction": "UK",
+      "title": "AI Safety Bill",
+      "status": "draft",
+      "expected_adoption": "2027-Q1",
+      "impact_assessment": "medium",
+      "affected_sectors": ["foundation_models", "critical_infrastructure"],
+      "estimated_compliance_cost_eur": 4000000,
+      "readiness_score": 4.5
+    }
+  ],
+  "summary": {
+    "total_enforcement_actions": 3,
+    "total_fines_eur": 19200000,
+    "avg_impact_score": 8.27,
+    "most_active_jurisdiction": "EU",
+    "most_common_violation": "transparency_failure",
+    "regulatory_velocity_index": 7.8,
+    "global_compliance_complexity_trend": "increasing",
+    "upcoming_regulations_count": 3,
+    "estimated_total_compliance_cost_eur": 33300000
+  }
+}
