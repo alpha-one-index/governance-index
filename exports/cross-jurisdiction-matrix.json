@@ -1,0 +1,157 @@
+{
+  "metadata": {
+    "dataset": "Cross-Jurisdiction AI Compliance Matrix",
+    "version": "1.0.0",
+    "generated": "2026-03-12T05:00:00Z",
+    "description": "Proprietary cross-jurisdiction comparison of AI governance requirements across major regulatory frameworks worldwide",
+    "methodology": "Manual expert analysis of published regulatory texts, enforcement actions, and official guidance documents"
+  },
+  "jurisdictions": [
+    {
+      "id": "EU",
+      "framework": "EU AI Act",
+      "status": "enacted",
+      "effective_date": "2025-08-01",
+      "risk_classification": true,
+      "risk_tiers": ["unacceptable", "high", "limited", "minimal"],
+      "transparency_requirements": "mandatory",
+      "conformity_assessment": "required_for_high_risk",
+      "penalties_max_pct_revenue": 7.0,
+      "penalties_max_eur": 35000000,
+      "foundation_model_rules": true,
+      "biometric_restrictions": "strict",
+      "human_oversight_mandate": true,
+      "data_governance_requirements": "comprehensive",
+      "registration_required": true,
+      "cross_border_provisions": "mutual_recognition",
+      "enforcement_body": "National Competent Authorities + EU AI Office"
+    },
+    {
+      "id": "US",
+      "framework": "EO 14110 + NIST AI RMF + State Laws",
+      "status": "fragmented",
+      "effective_date": "2023-10-30",
+      "risk_classification": false,
+      "risk_tiers": [],
+      "transparency_requirements": "voluntary_federal",
+      "conformity_assessment": "none_federal",
+      "penalties_max_pct_revenue": 0,
+      "penalties_max_eur": 0,
+      "foundation_model_rules": false,
+      "biometric_restrictions": "state_level_varied",
+      "human_oversight_mandate": false,
+      "data_governance_requirements": "sectoral",
+      "registration_required": false,
+      "cross_border_provisions": "none",
+      "enforcement_body": "FTC + Sector Regulators + State AGs",
+      "state_laws": [
+        {"state": "Colorado", "law": "SB 24-205", "focus": "high_risk_algorithmic_discrimination", "effective": "2026-02-01"},
+        {"state": "California", "law": "AB 2013", "focus": "genai_transparency", "effective": "2026-01-01"},
+        {"state": "Illinois", "law": "HB 3773", "focus": "ai_employment_decisions", "effective": "2026-01-01"}
+      ]
+    },
+    {
+      "id": "CN",
+      "framework": "Interim Measures for Generative AI + Algorithm Regulation",
+      "status": "enacted",
+      "effective_date": "2023-08-15",
+      "risk_classification": true,
+      "risk_tiers": ["deep_synthesis", "recommendation", "generative"],
+      "transparency_requirements": "mandatory",
+      "conformity_assessment": "algorithm_filing_required",
+      "penalties_max_pct_revenue": 5.0,
+      "penalties_max_eur": 1500000,
+      "foundation_model_rules": true,
+      "biometric_restrictions": "moderate",
+      "human_oversight_mandate": true,
+      "data_governance_requirements": "comprehensive",
+      "registration_required": true,
+      "cross_border_provisions": "data_localization",
+      "enforcement_body": "CAC + MIIT"
+    },
+    {
+      "id": "UK",
+      "framework": "Pro-Innovation AI Regulation",
+      "status": "framework_only",
+      "effective_date": "2024-02-06",
+      "risk_classification": false,
+      "risk_tiers": [],
+      "transparency_requirements": "principles_based",
+      "conformity_assessment": "none",
+      "penalties_max_pct_revenue": 0,
+      "penalties_max_eur": 0,
+      "foundation_model_rules": false,
+      "biometric_restrictions": "limited",
+      "human_oversight_mandate": false,
+      "data_governance_requirements": "existing_law",
+      "registration_required": false,
+      "cross_border_provisions": "adequacy_based",
+      "enforcement_body": "Existing Sector Regulators + AI Safety Institute"
+    },
+    {
+      "id": "CA",
+      "framework": "AIDA (Artificial Intelligence and Data Act)",
+      "status": "proposed",
+      "effective_date": null,
+      "risk_classification": true,
+      "risk_tiers": ["high_impact", "general"],
+      "transparency_requirements": "mandatory_high_impact",
+      "conformity_assessment": "audit_required_high_impact",
+      "penalties_max_pct_revenue": 3.0,
+      "penalties_max_eur": 7500000,
+      "foundation_model_rules": true,
+      "biometric_restrictions": "moderate",
+      "human_oversight_mandate": true,
+      "data_governance_requirements": "moderate",
+      "registration_required": true,
+      "cross_border_provisions": "bilateral_agreements",
+      "enforcement_body": "AI and Data Commissioner"
+    }
+  ],
+  "compliance_comparison": {
+    "dimensions": [
+      {
+        "dimension": "risk_classification",
+        "strictest": "EU",
+        "most_lenient": "UK",
+        "convergence_trend": "increasing",
+        "notes": "EU 4-tier model becoming de facto global standard"
+      },
+      {
+        "dimension": "penalties",
+        "strictest": "EU",
+        "most_lenient": "UK",
+        "convergence_trend": "increasing",
+        "notes": "GDPR-style revenue-based penalties spreading globally"
+      },
+      {
+        "dimension": "foundation_model_governance",
+        "strictest": "CN",
+        "most_lenient": "UK",
+        "convergence_trend": "rapid_increase",
+        "notes": "Post-GPT4 regulatory acceleration across all jurisdictions"
+      },
+      {
+        "dimension": "biometric_ai",
+        "strictest": "EU",
+        "most_lenient": "US",
+        "convergence_trend": "increasing",
+        "notes": "Real-time biometric ID banned in EU public spaces"
+      },
+      {
+        "dimension": "cross_border_data",
+        "strictest": "CN",
+        "most_lenient": "US",
+        "convergence_trend": "diverging",
+        "notes": "Data sovereignty vs free flow creating compliance complexity"
+      }
+    ],
+    "multinational_compliance_score": {
+      "description": "Difficulty index for organizations operating across all 5 jurisdictions",
+      "overall_complexity": 8.7,
+      "max_possible": 10.0,
+      "highest_friction_pair": ["EU", "CN"],
+      "lowest_friction_pair": ["US", "UK"]
+    }
+  }
+}
