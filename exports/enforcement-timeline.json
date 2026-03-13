@@ -1,0 +1,23 @@
+{
+  "metadata": {
+    "dataset": "AI Regulatory Enforcement Timeline",
+    "generated": "2026-03-13T16:19:09.470070+00:00"
+  },
+  "events": [
+    {
+      "date": "2025-08-01",
+      "event": "EU AI Act full application",
+      "impact": "critical"
+    },
+    {
+      "date": "2026-02-01",
+      "event": "Colorado SB 24-205 effective",
+      "impact": "high"
+    },
+    {
+      "date": "2026-08-01",
+      "event": "EU AI Act high-risk system registration deadline",
+      "impact": "critical"
+    }
+  ]
+}
