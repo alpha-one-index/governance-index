@@ -1,35 +1,35 @@
 timestamp,source,framework,article,requirement,compliance_deadline,days_remaining,enforcement_status,risk_tier,jurisdiction,penalty_max_eur,penalty_pct_turnover,function,function_description,control_id,control_name,iso_42001_mapping,mandatory,framework_version,last_revision,vulnerability_id,vulnerability_name,severity,eu_ai_act_mapping,category,repo_last_updated
-2026-03-13T07:59:22.181613+00:00,eu_ai_act,EU AI Act (Reg. 2024/1689),Art. 5,Prohibited AI practices ban,2025-02-02,0,active,unacceptable,EU,35000000,7.0,,,,,,,,,,,,,,
-2026-03-13T07:59:22.181613+00:00,eu_ai_act,EU AI Act (Reg. 2024/1689),Art. 6-7,GPAI model obligations,2025-08-02,0,active,general_purpose,EU,35000000,7.0,,,,,,,,,,,,,,
-2026-03-13T07:59:22.181613+00:00,eu_ai_act,EU AI Act (Reg. 2024/1689),Art. 6-49,High-risk AI system requirements,2026-08-02,141,upcoming,high,EU,35000000,7.0,,,,,,,,,,,,,,
-2026-03-13T07:59:22.181613+00:00,eu_ai_act,EU AI Act (Reg. 2024/1689),Art. 50,Transparency obligations,2026-08-02,141,upcoming,limited,EU,35000000,7.0,,,,,,,,,,,,,,
-2026-03-13T07:59:22.181613+00:00,eu_ai_act,EU AI Act (Reg. 2024/1689),Art. 51-54,Conformity assessment procedures,2027-08-02,506,upcoming,high,EU,35000000,7.0,,,,,,,,,,,,,,
-2026-03-13T07:59:22.313877+00:00,nist_ai_rmf,NIST AI RMF 1.0,,,,,,,US,,,GOVERN,Cultivate and implement a culture of risk management,GV-1,Policies and procedures,"5.2, 6.1",False,1.0,2023-01-26,,,,,,
-2026-03-13T07:59:22.313877+00:00,nist_ai_rmf,NIST AI RMF 1.0,,,,,,,US,,,GOVERN,Cultivate and implement a culture of risk management,GV-2,Accountability structures,5.3,False,1.0,2023-01-26,,,,,,
-2026-03-13T07:59:22.313877+00:00,nist_ai_rmf,NIST AI RMF 1.0,,,,,,,US,,,GOVERN,Cultivate and implement a culture of risk management,GV-3,Workforce diversity and culture,7.2,False,1.0,2023-01-26,,,,,,
-2026-03-13T07:59:22.313877+00:00,nist_ai_rmf,NIST AI RMF 1.0,,,,,,,US,,,GOVERN,Cultivate and implement a culture of risk management,GV-4,Organizational commitments,5.1,False,1.0,2023-01-26,,,,,,
-2026-03-13T07:59:22.313877+00:00,nist_ai_rmf,NIST AI RMF 1.0,,,,,,,US,,,GOVERN,Cultivate and implement a culture of risk management,GV-5,Processes for engagement,7.4,False,1.0,2023-01-26,,,,,,
-2026-03-13T07:59:22.313877+00:00,nist_ai_rmf,NIST AI RMF 1.0,,,,,,,US,,,GOVERN,Cultivate and implement a culture of risk management,GV-6,Policies for third-party AI,8.1,False,1.0,2023-01-26,,,,,,
-2026-03-13T07:59:22.313877+00:00,nist_ai_rmf,NIST AI RMF 1.0,,,,,,,US,,,MAP,Contextualize risks related to AI system,MP-1,Intended purposes and context,6.1.2,False,1.0,2023-01-26,,,,,,
-2026-03-13T07:59:22.313877+00:00,nist_ai_rmf,NIST AI RMF 1.0,,,,,,,US,,,MAP,Contextualize risks related to AI system,MP-2,Interdisciplinary AI actors,7.2,False,1.0,2023-01-26,,,,,,
-2026-03-13T07:59:22.313877+00:00,nist_ai_rmf,NIST AI RMF 1.0,,,,,,,US,,,MAP,Contextualize risks related to AI system,MP-3,Benefits and costs assessment,6.1,False,1.0,2023-01-26,,,,,,
-2026-03-13T07:59:22.313877+00:00,nist_ai_rmf,NIST AI RMF 1.0,,,,,,,US,,,MAP,Contextualize risks related to AI system,MP-4,Risk identification and tolerances,6.1.1,False,1.0,2023-01-26,,,,,,
-2026-03-13T07:59:22.313877+00:00,nist_ai_rmf,NIST AI RMF 1.0,,,,,,,US,,,MAP,Contextualize risks related to AI system,MP-5,Impact characterization,6.1.2,False,1.0,2023-01-26,,,,,,
-2026-03-13T07:59:22.313877+00:00,nist_ai_rmf,NIST AI RMF 1.0,,,,,,,US,,,MEASURE,Employ quantitative and qualitative methods to analyze AI risks,MS-1,Risk measurement approaches,9.1,False,1.0,2023-01-26,,,,,,
-2026-03-13T07:59:22.313877+00:00,nist_ai_rmf,NIST AI RMF 1.0,,,,,,,US,,,MEASURE,Employ quantitative and qualitative methods to analyze AI risks,MS-2,AI systems evaluated for trustworthiness,8.2,False,1.0,2023-01-26,,,,,,
-2026-03-13T07:59:22.313877+00:00,nist_ai_rmf,NIST AI RMF 1.0,,,,,,,US,,,MEASURE,Employ quantitative and qualitative methods to analyze AI risks,MS-3,Mechanisms for tracking risks,9.1.2,False,1.0,2023-01-26,,,,,,
-2026-03-13T07:59:22.313877+00:00,nist_ai_rmf,NIST AI RMF 1.0,,,,,,,US,,,MEASURE,Employ quantitative and qualitative methods to analyze AI risks,MS-4,Feedback from affected communities,9.3,False,1.0,2023-01-26,,,,,,
-2026-03-13T07:59:22.313877+00:00,nist_ai_rmf,NIST AI RMF 1.0,,,,,,,US,,,MANAGE,Allocate resources to mapped and measured risks,MG-1,Risk prioritization and response,6.1.3,False,1.0,2023-01-26,,,,,,
-2026-03-13T07:59:22.313877+00:00,nist_ai_rmf,NIST AI RMF 1.0,,,,,,,US,,,MANAGE,Allocate resources to mapped and measured risks,MG-2,Risk treatment plans,6.1.3,False,1.0,2023-01-26,,,,,,
-2026-03-13T07:59:22.313877+00:00,nist_ai_rmf,NIST AI RMF 1.0,,,,,,,US,,,MANAGE,Allocate resources to mapped and measured risks,MG-3,Pre-deployment risk management,8.2,False,1.0,2023-01-26,,,,,,
-2026-03-13T07:59:22.313877+00:00,nist_ai_rmf,NIST AI RMF 1.0,,,,,,,US,,,MANAGE,Allocate resources to mapped and measured risks,MG-4,Post-deployment monitoring,9.1,False,1.0,2023-01-26,,,,,,
-2026-03-13T07:59:22.725362+00:00,owasp_llm_top10,OWASP Top 10 for LLM Applications 2025,,,,,,,global,,,,,,,,,2025-v1,,LLM01,Prompt Injection,critical,Art. 15,security,2025-12-29T17:41:53Z
-2026-03-13T07:59:22.725362+00:00,owasp_llm_top10,OWASP Top 10 for LLM Applications 2025,,,,,,,global,,,,,,,,,2025-v1,,LLM02,Sensitive Information Disclosure,high,Art. 10,security,2025-12-29T17:41:53Z
-2026-03-13T07:59:22.725362+00:00,owasp_llm_top10,OWASP Top 10 for LLM Applications 2025,,,,,,,global,,,,,,,,,2025-v1,,LLM03,Supply Chain Vulnerabilities,high,Art. 17,security,2025-12-29T17:41:53Z
-2026-03-13T07:59:22.725362+00:00,owasp_llm_top10,OWASP Top 10 for LLM Applications 2025,,,,,,,global,,,,,,,,,2025-v1,,LLM04,Data and Model Poisoning,critical,Art. 10,security,2025-12-29T17:41:53Z
-2026-03-13T07:59:22.725362+00:00,owasp_llm_top10,OWASP Top 10 for LLM Applications 2025,,,,,,,global,,,,,,,,,2025-v1,,LLM05,Improper Output Handling,high,Art. 15,security,2025-12-29T17:41:53Z
-2026-03-13T07:59:22.725362+00:00,owasp_llm_top10,OWASP Top 10 for LLM Applications 2025,,,,,,,global,,,,,,,,,2025-v1,,LLM06,Excessive Agency,high,Art. 14,security,2025-12-29T17:41:53Z
-2026-03-13T07:59:22.725362+00:00,owasp_llm_top10,OWASP Top 10 for LLM Applications 2025,,,,,,,global,,,,,,,,,2025-v1,,LLM07,System Prompt Leakage,medium,Art. 13,security,2025-12-29T17:41:53Z
-2026-03-13T07:59:22.725362+00:00,owasp_llm_top10,OWASP Top 10 for LLM Applications 2025,,,,,,,global,,,,,,,,,2025-v1,,LLM08,Vector and Embedding Weaknesses,medium,Art. 15,security,2025-12-29T17:41:53Z
-2026-03-13T07:59:22.725362+00:00,owasp_llm_top10,OWASP Top 10 for LLM Applications 2025,,,,,,,global,,,,,,,,,2025-v1,,LLM09,Misinformation,high,Art. 50,security,2025-12-29T17:41:53Z
-2026-03-13T07:59:22.725362+00:00,owasp_llm_top10,OWASP Top 10 for LLM Applications 2025,,,,,,,global,,,,,,,,,2025-v1,,LLM10,Unbounded Consumption,medium,Art. 15,security,2025-12-29T17:41:53Z
+2026-03-14T07:51:11.184940+00:00,eu_ai_act,EU AI Act (Reg. 2024/1689),Art. 5,Prohibited AI practices ban,2025-02-02,0,active,unacceptable,EU,35000000,7.0,,,,,,,,,,,,,,
+2026-03-14T07:51:11.184940+00:00,eu_ai_act,EU AI Act (Reg. 2024/1689),Art. 6-7,GPAI model obligations,2025-08-02,0,active,general_purpose,EU,35000000,7.0,,,,,,,,,,,,,,
+2026-03-14T07:51:11.184940+00:00,eu_ai_act,EU AI Act (Reg. 2024/1689),Art. 6-49,High-risk AI system requirements,2026-08-02,140,upcoming,high,EU,35000000,7.0,,,,,,,,,,,,,,
+2026-03-14T07:51:11.184940+00:00,eu_ai_act,EU AI Act (Reg. 2024/1689),Art. 50,Transparency obligations,2026-08-02,140,upcoming,limited,EU,35000000,7.0,,,,,,,,,,,,,,
+2026-03-14T07:51:11.184940+00:00,eu_ai_act,EU AI Act (Reg. 2024/1689),Art. 51-54,Conformity assessment procedures,2027-08-02,505,upcoming,high,EU,35000000,7.0,,,,,,,,,,,,,,
+2026-03-14T07:51:12.553778+00:00,nist_ai_rmf,NIST AI RMF 1.0,,,,,,,US,,,GOVERN,Cultivate and implement a culture of risk management,GV-1,Policies and procedures,"5.2, 6.1",False,1.0,2023-01-26,,,,,,
+2026-03-14T07:51:12.553778+00:00,nist_ai_rmf,NIST AI RMF 1.0,,,,,,,US,,,GOVERN,Cultivate and implement a culture of risk management,GV-2,Accountability structures,5.3,False,1.0,2023-01-26,,,,,,
+2026-03-14T07:51:12.553778+00:00,nist_ai_rmf,NIST AI RMF 1.0,,,,,,,US,,,GOVERN,Cultivate and implement a culture of risk management,GV-3,Workforce diversity and culture,7.2,False,1.0,2023-01-26,,,,,,
+2026-03-14T07:51:12.553778+00:00,nist_ai_rmf,NIST AI RMF 1.0,,,,,,,US,,,GOVERN,Cultivate and implement a culture of risk management,GV-4,Organizational commitments,5.1,False,1.0,2023-01-26,,,,,,
+2026-03-14T07:51:12.553778+00:00,nist_ai_rmf,NIST AI RMF 1.0,,,,,,,US,,,GOVERN,Cultivate and implement a culture of risk management,GV-5,Processes for engagement,7.4,False,1.0,2023-01-26,,,,,,
+2026-03-14T07:51:12.553778+00:00,nist_ai_rmf,NIST AI RMF 1.0,,,,,,,US,,,GOVERN,Cultivate and implement a culture of risk management,GV-6,Policies for third-party AI,8.1,False,1.0,2023-01-26,,,,,,
+2026-03-14T07:51:12.553778+00:00,nist_ai_rmf,NIST AI RMF 1.0,,,,,,,US,,,MAP,Contextualize risks related to AI system,MP-1,Intended purposes and context,6.1.2,False,1.0,2023-01-26,,,,,,
+2026-03-14T07:51:12.553778+00:00,nist_ai_rmf,NIST AI RMF 1.0,,,,,,,US,,,MAP,Contextualize risks related to AI system,MP-2,Interdisciplinary AI actors,7.2,False,1.0,2023-01-26,,,,,,
+2026-03-14T07:51:12.553778+00:00,nist_ai_rmf,NIST AI RMF 1.0,,,,,,,US,,,MAP,Contextualize risks related to AI system,MP-3,Benefits and costs assessment,6.1,False,1.0,2023-01-26,,,,,,
+2026-03-14T07:51:12.553778+00:00,nist_ai_rmf,NIST AI RMF 1.0,,,,,,,US,,,MAP,Contextualize risks related to AI system,MP-4,Risk identification and tolerances,6.1.1,False,1.0,2023-01-26,,,,,,
+2026-03-14T07:51:12.553778+00:00,nist_ai_rmf,NIST AI RMF 1.0,,,,,,,US,,,MAP,Contextualize risks related to AI system,MP-5,Impact characterization,6.1.2,False,1.0,2023-01-26,,,,,,
+2026-03-14T07:51:12.553778+00:00,nist_ai_rmf,NIST AI RMF 1.0,,,,,,,US,,,MEASURE,Employ quantitative and qualitative methods to analyze AI risks,MS-1,Risk measurement approaches,9.1,False,1.0,2023-01-26,,,,,,
+2026-03-14T07:51:12.553778+00:00,nist_ai_rmf,NIST AI RMF 1.0,,,,,,,US,,,MEASURE,Employ quantitative and qualitative methods to analyze AI risks,MS-2,AI systems evaluated for trustworthiness,8.2,False,1.0,2023-01-26,,,,,,
+2026-03-14T07:51:12.553778+00:00,nist_ai_rmf,NIST AI RMF 1.0,,,,,,,US,,,MEASURE,Employ quantitative and qualitative methods to analyze AI risks,MS-3,Mechanisms for tracking risks,9.1.2,False,1.0,2023-01-26,,,,,,
+2026-03-14T07:51:12.553778+00:00,nist_ai_rmf,NIST AI RMF 1.0,,,,,,,US,,,MEASURE,Employ quantitative and qualitative methods to analyze AI risks,MS-4,Feedback from affected communities,9.3,False,1.0,2023-01-26,,,,,,
+2026-03-14T07:51:12.553778+00:00,nist_ai_rmf,NIST AI RMF 1.0,,,,,,,US,,,MANAGE,Allocate resources to mapped and measured risks,MG-1,Risk prioritization and response,6.1.3,False,1.0,2023-01-26,,,,,,
+2026-03-14T07:51:12.553778+00:00,nist_ai_rmf,NIST AI RMF 1.0,,,,,,,US,,,MANAGE,Allocate resources to mapped and measured risks,MG-2,Risk treatment plans,6.1.3,False,1.0,2023-01-26,,,,,,
+2026-03-14T07:51:12.553778+00:00,nist_ai_rmf,NIST AI RMF 1.0,,,,,,,US,,,MANAGE,Allocate resources to mapped and measured risks,MG-3,Pre-deployment risk management,8.2,False,1.0,2023-01-26,,,,,,
+2026-03-14T07:51:12.553778+00:00,nist_ai_rmf,NIST AI RMF 1.0,,,,,,,US,,,MANAGE,Allocate resources to mapped and measured risks,MG-4,Post-deployment monitoring,9.1,False,1.0,2023-01-26,,,,,,
+2026-03-14T07:51:12.865596+00:00,owasp_llm_top10,OWASP Top 10 for LLM Applications 2025,,,,,,,global,,,,,,,,,2025-v1,,LLM01,Prompt Injection,critical,Art. 15,security,2025-12-29T17:41:53Z
+2026-03-14T07:51:12.865596+00:00,owasp_llm_top10,OWASP Top 10 for LLM Applications 2025,,,,,,,global,,,,,,,,,2025-v1,,LLM02,Sensitive Information Disclosure,high,Art. 10,security,2025-12-29T17:41:53Z
+2026-03-14T07:51:12.865596+00:00,owasp_llm_top10,OWASP Top 10 for LLM Applications 2025,,,,,,,global,,,,,,,,,2025-v1,,LLM03,Supply Chain Vulnerabilities,high,Art. 17,security,2025-12-29T17:41:53Z
+2026-03-14T07:51:12.865596+00:00,owasp_llm_top10,OWASP Top 10 for LLM Applications 2025,,,,,,,global,,,,,,,,,2025-v1,,LLM04,Data and Model Poisoning,critical,Art. 10,security,2025-12-29T17:41:53Z
+2026-03-14T07:51:12.865596+00:00,owasp_llm_top10,OWASP Top 10 for LLM Applications 2025,,,,,,,global,,,,,,,,,2025-v1,,LLM05,Improper Output Handling,high,Art. 15,security,2025-12-29T17:41:53Z
+2026-03-14T07:51:12.865596+00:00,owasp_llm_top10,OWASP Top 10 for LLM Applications 2025,,,,,,,global,,,,,,,,,2025-v1,,LLM06,Excessive Agency,high,Art. 14,security,2025-12-29T17:41:53Z
+2026-03-14T07:51:12.865596+00:00,owasp_llm_top10,OWASP Top 10 for LLM Applications 2025,,,,,,,global,,,,,,,,,2025-v1,,LLM07,System Prompt Leakage,medium,Art. 13,security,2025-12-29T17:41:53Z
+2026-03-14T07:51:12.865596+00:00,owasp_llm_top10,OWASP Top 10 for LLM Applications 2025,,,,,,,global,,,,,,,,,2025-v1,,LLM08,Vector and Embedding Weaknesses,medium,Art. 15,security,2025-12-29T17:41:53Z
+2026-03-14T07:51:12.865596+00:00,owasp_llm_top10,OWASP Top 10 for LLM Applications 2025,,,,,,,global,,,,,,,,,2025-v1,,LLM09,Misinformation,high,Art. 50,security,2025-12-29T17:41:53Z
+2026-03-14T07:51:12.865596+00:00,owasp_llm_top10,OWASP Top 10 for LLM Applications 2025,,,,,,,global,,,,,,,,,2025-v1,,LLM10,Unbounded Consumption,medium,Art. 15,security,2025-12-29T17:41:53Z

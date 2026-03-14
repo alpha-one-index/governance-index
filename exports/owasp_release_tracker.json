@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-03-13T07:59:29.738343+00:00",
+  "timestamp": "2026-03-14T07:51:23.024701+00:00",
   "repos": {
     "llm_top_10": {
       "description": "OWASP Top 10 for LLM Applications",
       "metadata": {
-        "stars": 1145,
+        "stars": 1146,
         "forks": 298,
         "open_issues": 38,
         "last_push": "2026-02-22T00:53:11Z",
