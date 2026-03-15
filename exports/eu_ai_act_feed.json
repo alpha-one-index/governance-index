@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-03-14T07:51:17.458426+00:00",
+  "timestamp": "2026-03-15T07:56:13.493215+00:00",
   "compliance_deadlines": [
     {
       "milestone": "Prohibited AI practices ban",
@@ -7,7 +7,7 @@
       "article": "Article 5",
       "penalty_max_eur": 35000000,
       "penalty_max_pct_turnover": 7,
-      "days_remaining": -405,
+      "days_remaining": -406,
       "urgency": "past_due",
       "enforcement_active": true
     },
@@ -17,7 +17,7 @@
       "article": "Articles 51-56",
       "penalty_max_eur": 15000000,
       "penalty_max_pct_turnover": 3,
-      "days_remaining": -224,
+      "days_remaining": -225,
       "urgency": "past_due",
       "enforcement_active": true
     },
@@ -27,7 +27,7 @@
       "article": "Articles 6-49",
       "penalty_max_eur": 15000000,
       "penalty_max_pct_turnover": 3,
-      "days_remaining": 141,
+      "days_remaining": 140,
       "urgency": "high",
       "enforcement_active": false
     },
@@ -37,7 +37,7 @@
       "article": "Article 6(1)",
       "penalty_max_eur": 15000000,
       "penalty_max_pct_turnover": 3,
-      "days_remaining": 506,
+      "days_remaining": 505,
       "urgency": "low",
       "enforcement_active": false
     }
@@ -48,7 +48,7 @@
     "article": "Articles 6-49",
     "penalty_max_eur": 15000000,
     "penalty_max_pct_turnover": 3,
-    "days_remaining": 141,
+    "days_remaining": 140,
     "urgency": "high",
     "enforcement_active": false
   },
